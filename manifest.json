@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.imleagues.com/*"],
-      "js": ["src/unblock.js"],
+      "js": ["unblock.js"],
       "run_at": "document_idle"
     }
   ]
